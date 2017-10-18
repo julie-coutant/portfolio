@@ -76,6 +76,8 @@ img.logo{
 	position: relative; 
 	top: 50%; 
 	transform: translateY(-50%);
+	-ms-transform: translateY(-50%); /* IE 9 */
+    -webkit-transform: translateY(-50%); /* Safari */
 }
 
 .header-container{
@@ -92,6 +94,8 @@ img.logo{
 	position: relative; 
 	top: 50%; 
    	transform: translateY(-50%);
+	-ms-transform: translateY(-50%); /* IE 9 */
+    -webkit-transform: translateY(-50%); /* Safari */
 	padding: 15px;	
 }
 
@@ -230,6 +234,11 @@ img.logo{
 #gallery figure, #project figure {
 	position: relative;
 	overflow: hidden;
+}
+
+#gallery figure a, #project figure a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 #gallery figure.effect-layla:hover , #project figure.effect-layla:hover {
@@ -473,7 +482,7 @@ background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
 	bottom: 2em;
 	left: 2em;
 	color: white;	
-	display: none;
+	display: block;
 }
 
 #project .go-top:active, #project  .go-top:focus, #project .go-home:active, #project  .go-home:focus {
@@ -607,6 +616,11 @@ outline:none;
 #contact {
 	background-color: #808080;
 	overflow-x: hidden;
+}
+
+#contact a{
+	text-decoration : none;
+	color: #ffffff;
 }
 
 #contact .social-bar {

@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	"use strict";
+
 	$('#gallery .grid').masonry({
 		itemSelector: '.grid-item',
 		columnWidth: 200,
@@ -36,10 +38,8 @@ $(document).ready(function(){
 			$(window).scroll(function() {
 				if ($(this).scrollTop() > 200) {
 					$('.go-top').fadeIn(200);
-					$('.go-home').fadeIn(200);
 				} else {
 					$('.go-top').fadeOut(200);
-					$('.go-home').fadeOut(200);
 				}
 				if($(window).scrollTop() + $(window).height() < $(document).height() - $("#contact").height()) {
 				$('.go-top').css("position","fixed");    //resetting it
