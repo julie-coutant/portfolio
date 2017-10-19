@@ -85,7 +85,7 @@ img.logo{
 }
 
 .header-content {
-	min-width: 320px; 
+	/*min-width: 320px;*/ 
     max-width: 410px;
 	margin: auto;
     background: #ffffff;
@@ -222,7 +222,7 @@ img.logo{
 	
 /* ---- grid-item ---- */
 #gallery .grid-item, #project .grid-item {
-	min-width: 360px;
+	/*min-width: 360px;*/
 	min-height: 275px;
 	background: rgba(69,184,195,1);
 	border: 1px solid #a3d8de;
@@ -330,6 +330,9 @@ background-image : url(../img/thumbnail/webdesign-youdeo-landing.jpg);
 background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
 }
 
+#gallery figure.effect-layla .thumbnail.webdesign-bienchezmoi, #gallery figure.effect-layla .thumbnail.webdesign-youdeo-landing{
+    background-position: top center;
+}
 
 #gallery figure figcaption, #project figure figcaption {
 	position: absolute;
@@ -469,12 +472,13 @@ background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
     color: #FFFFFF;  
 }
 
-#project .go-top {
+#project .go-top, main .go-top {
 	position: fixed;
 	bottom: 2em;
 	right: 2em;
 	color: white;	
 	display: none;
+	z-index: 6;
 }
 
 #project .go-home {
@@ -483,9 +487,10 @@ background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
 	left: 2em;
 	color: white;	
 	display: block;
+	z-index: 6;
 }
 
-#project .go-top:active, #project  .go-top:focus, #project .go-home:active, #project  .go-home:focus {
+#project .go-top:active, main .go-top:active, #project  .go-top:focus, main .go-top:focus, #project .go-home:active, #project  .go-home:focus {
 outline:none;
 }
 
@@ -710,6 +715,29 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
 	#gallery figure.effect-layla .thumbnail.width-2{
 		width:100%;
 		height:auto; 
+	}
+	
+	#gallery figure.effect-layla .thumbnail,  #project figure.effect-layla .thumbnail {
+		min-width: 50%;
+		min-height: 275px;
+	}
+	
+	#gallery figure.effect-layla .thumbnail.height-2 {
+	height: 275px;
+	}
+	
+	#project .go-top, main .go-top {
+		right: -0.5em;	
+		bottom: 0.5em;
+	}
+
+	#project .go-home {
+		left: 0.5em;
+		bottom: 0.5em;
+	}
+	
+	#project .go-top img, main .go-top img, #project .go-home img {
+		width: 70%;
 	}
 	
 	.social-bar .link:first-child{
