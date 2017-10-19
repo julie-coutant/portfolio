@@ -643,14 +643,14 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 #contact .linkedin{
-    background: transparent url(img/linkedin.png) no-repeat center center;
+    background: transparent url(img/linkedin.svg) no-repeat center center;
     width: 33px;
 	height:33px;
 	margin: auto;
 }
 
 #contact .pinterest{
-    background: transparent url(img/pinterest.png) no-repeat center center;
+    background: transparent url(img/pinterest.svg) no-repeat center center;
     width: 33px;
 	height:33px;
 	margin: auto;
