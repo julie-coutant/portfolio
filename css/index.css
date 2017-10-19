@@ -576,7 +576,7 @@ outline:none;
     text-align: center;
     padding: 14px;
     height: 70px;
-    width: 300px;
+    width: 290px;
     margin: auto;
 }
 
@@ -739,6 +739,14 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
 	#project .go-top img, main .go-top img, #project .go-home img {
 		width: 70%;
 	}
+		
+	#timeline .pr-30{
+		padding-right: 20px;
+	}
+
+	#timeline .pl-30{
+		padding-left: 20px;
+	}
 	
 	.social-bar .link:first-child{
 		border-right: none;
@@ -761,8 +769,7 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
         margin-top: 30px;
     }
 	
-	#timeline .skills-legend-75,
-	#timeline .skills-legend-40 {
+	#timeline .skills-legend-75, #timeline .skills-legend-40 {
 		margin: 30px auto 15px auto;
 	}
 }
@@ -776,8 +783,7 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
 		margin: auto;
 	}
   
-	#gallery figure.effect-layla .thumbnail.width-2,
-	#gallery figure.effect-layla .thumbnail.width-3{
+	#gallery figure.effect-layla .thumbnail.width-2, #gallery figure.effect-layla .thumbnail.width-3{
 		width: 50%;
 	}
 }
