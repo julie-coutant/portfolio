@@ -1,6 +1,12 @@
 $(document).ready(function(){
 
 	"use strict";
+	
+    $("nav a").click(function(evn){
+	 evn.preventDefault(); 
+    $('html,body').scrollTo($("#nav-anchor"), 500); 
+
+    }); 
 
 	$('#gallery .grid').masonry({
 		itemSelector: '.grid-item',
