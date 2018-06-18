@@ -649,8 +649,8 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
 	margin: auto;
 }
 
-#contact .pinterest{
-    background: transparent url(img/pinterest.svg) no-repeat center center;
+#contact .behance{
+    background: transparent url(img/behance.svg) no-repeat center center;
     width: 33px;
 	height:33px;
 	margin: auto;
