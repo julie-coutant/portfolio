@@ -41,9 +41,6 @@ header {
 }
 
 .header-home{background-image : url(../img/header/home.jpg);}
-/* APPLIS */
-.header-application-bordas {background-image : url(../img/header/application-bordas.jpg);}
-.header-application-genie {background-image : url(../img/header/application-genie.jpg);}
 /* IDENTITY */
 .header-identity-hillo {background-image : url(../img/header/identity-hillo.jpg);}
 .header-identity-mybestpro {background-image : url(../img/header/identity-mybestpro.jpg);}
@@ -52,7 +49,9 @@ header {
 .header-print-memoire {background-image : url(../img/header/print-memoire.jpg);}
 .header-print-rdvmedicaux {background-image : url(../img/header/plaquette-rdvmedicaux.jpg);}
 /* UX DESIGN */
-.header-ux-geniepro {background-image : url(../img/header/ux-genie.jpg);}
+.header-ux-bordas {background-image : url(../img/header/ux-bordas.jpg);}
+.header-ux-genie {background-image : url(../img/header/ux-genie.jpg);}
+.header-ux-geniepro {background-image : url(../img/header/ux-geniepro.jpg);}
 .header-ux-wengo {background-image : url(../img/header/ux-wengo.jpg);}
 /* WEBDESIGN */
 .header-webdesign-bienchezmoi {background-image : url(../img/header/webdesign-bienchezmoi.jpg);}
@@ -288,13 +287,6 @@ img.logo{
 	height:600px;
 }
 
-/* APPLIS */
-#gallery .application-bordas, #project .application-bordas {
-background-image : url(../img/thumbnail/application-bordas.jpg);
-}
-#gallery .application-genie, #project .application-genie {
-background-image : url(../img/thumbnail/application-genie.jpg);
-}
 /* IDENTITY */
 #gallery .identity-hillo, #project .identity-hillo {
 background-image : url(../img/thumbnail/identity-hillo.jpg);
@@ -313,6 +305,12 @@ background-image : url(../img/thumbnail/print-memoire.jpg);
 background-image : url(../img/thumbnail/plaquette-rdvmedicaux.jpg);
 }
 /* UX DESIGN */
+#gallery .ux-bordas, #project .ux-bordas {
+background-image : url(../img/thumbnail/ux-bordas.jpg);
+}
+#gallery .ux-genie, #project .ux-genie {
+background-image : url(../img/thumbnail/ux-genie.jpg);
+}
 #gallery .ux-geniepro, #project .ux-geniepro {
 background-image : url(../img/thumbnail/ux-geniepro.jpg);
 }
