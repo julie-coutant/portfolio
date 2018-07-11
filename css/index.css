@@ -44,14 +44,13 @@ header {
 /* IDENTITY */
 .header-identity-hillo {background-image : url(../img/header/identity-hillo.jpg);}
 .header-identity-mybestpro {background-image : url(../img/header/identity-mybestpro.jpg);}
+.header-identity-wephone {background-image : url(../img/header/identity-wephone.jpg);}
 .header-identity-youdeo {background-image : url(../img/header/identity-youdeo.jpg);}
-/* PRINT */
-.header-print-memoire {background-image : url(../img/header/print-memoire.jpg);}
-.header-print-rdvmedicaux {background-image : url(../img/header/plaquette-rdvmedicaux.jpg);}
 /* UX DESIGN */
 .header-ux-bordas {background-image : url(../img/header/ux-bordas.jpg);}
 .header-ux-genie {background-image : url(../img/header/ux-genie.jpg);}
 .header-ux-geniepro {background-image : url(../img/header/ux-geniepro.jpg);}
+.header-ux-rdvmedicaux {background-image : url(../img/header/ux-rdvmedicaux.jpg);}
 .header-ux-wengo {background-image : url(../img/header/ux-wengo.jpg);}
 /* WEBDESIGN */
 .header-webdesign-bienchezmoi {background-image : url(../img/header/webdesign-bienchezmoi.jpg);}
@@ -294,15 +293,11 @@ background-image : url(../img/thumbnail/identity-hillo.jpg);
 #gallery .identity-mybestpro, #project .identity-mybestpro {
 background-image : url(../img/thumbnail/identity-mybestpro.jpg);
 }
+#gallery .identity-wephone, #project .identity-wephone {
+background-image : url(../img/thumbnail/identity-wephone.jpg);
+}
 #gallery .identity-youdeo, #project .identity-youdeo {
 background-image : url(../img/thumbnail/identity-youdeo.jpg);
-}
-/* PRINT */
-#gallery .print-memoire, #project .print-memoire {
-background-image : url(../img/thumbnail/print-memoire.jpg);
-}
-#gallery .print-rdvmedicaux, #project .print-rdvmedicaux {
-background-image : url(../img/thumbnail/plaquette-rdvmedicaux.jpg);
 }
 /* UX DESIGN */
 #gallery .ux-bordas, #project .ux-bordas {
@@ -313,6 +308,9 @@ background-image : url(../img/thumbnail/ux-genie.jpg);
 }
 #gallery .ux-geniepro, #project .ux-geniepro {
 background-image : url(../img/thumbnail/ux-geniepro.jpg);
+}
+#gallery .ux-rdvmedicaux, #project .ux-rdvmedicaux {
+background-image : url(../img/thumbnail/ux-rdvmedicaux.jpg);
 }
 #gallery .ux-wengo, #project .ux-wengo {
 background-image : url(../img/thumbnail/ux-wengo.jpg);
@@ -441,8 +439,16 @@ background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
 
 #project .project-image{
 	display: block;
-	margin: 3.125em auto;
+	margin: auto; 
 	max-width: 100%;
+}
+
+#project .project-image:first-child{
+	margin-top: 3.125em; 
+}
+
+#project .project-image:last-child{
+	margin-bottom: 3.125em; 
 }
 
 #project .project-title{
@@ -636,6 +642,7 @@ outline:none;
 	position: relative;
 	overflow: hidden;
 }
+
 #contact .social-bar .link:first-child{
 border-right: 1px solid rgba(255, 255, 255, 0.4);
 }
@@ -654,8 +661,7 @@ border-right: 1px solid rgba(255, 255, 255, 0.4);
 	margin: auto;
 }
 
-#contact .social-bar .front,
-#contact .social-bar .back {
+#contact .social-bar .front, #contact .social-bar .back {
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
