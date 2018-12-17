@@ -113,8 +113,8 @@ img.logo{
 /* ///////////////////////////////////////////////// BIO */
 
 #bio {
-    padding: 3.125em 0; 
-}
+    padding: 3.125em 0 1.250em 0;
+}	
 
 #bio .link-project{
 	text-decoration: none;
