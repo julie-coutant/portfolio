@@ -607,12 +607,16 @@ outline:none;
     margin: 5px 0 0 0;
 }
 
-#timeline .skills-legend-75 {
-    margin: 75px auto;
+#timeline .skills-legend-85 {
+    margin: 85px auto;
 }
 
 #timeline .skills-legend-40 {
     margin: 40px auto;
+}
+
+#timeline .skills-legend-25 {
+    margin: 25px auto;
 }
 
 #timeline .btn-cv  {
