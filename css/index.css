@@ -3,7 +3,7 @@ body {
     font-size: 15px;
     line-height: 24px;
 	text-align: justify;
-    color: #404040;
+    color: #323F4B;
 }
 
 .position-absolute {
@@ -41,21 +41,18 @@ header {
 }
 
 .header-home{background-image : url(../img/header/home.jpg);}
-/* IDENTITY */
-.header-identity-hillo {background-image : url(../img/header/identity-hillo.jpg);}
-.header-identity-mybestpro {background-image : url(../img/header/identity-mybestpro.jpg);}
-.header-identity-wephone {background-image : url(../img/header/identity-wephone.jpg);}
-.header-identity-youdeo {background-image : url(../img/header/identity-youdeo.jpg);}
+/* IDENTITY & WEBDESIGN*/
+.header-identity-bienchezmoi, .header-webdesign-bienchezmoi {background-image : url(../img/header/bienchezmoi.jpg);}
+.header-identity-epicse {background-image : url(../img/header/epicse.jpg);}
+.header-identity-hillo {background-image : url(../img/header/hillo.jpg);}
+.header-identity-mybestpro, .header-webdesign-mybestpro {background-image : url(../img/header/mybestpro.jpg);}
+.header-identity-smilemate {background-image : url(../img/header/smilemate.jpg);}
 /* UX DESIGN */
-.header-ux-bordas {background-image : url(../img/header/ux-bordas.jpg);}
-.header-ux-genie {background-image : url(../img/header/ux-genie.jpg);}
-.header-ux-geniepro {background-image : url(../img/header/ux-geniepro.jpg);}
-.header-ux-rdvmedicaux {background-image : url(../img/header/ux-rdvmedicaux.jpg);}
-.header-ux-wengo {background-image : url(../img/header/ux-wengo.jpg);}
-/* WEBDESIGN */
-.header-webdesign-bienchezmoi {background-image : url(../img/header/webdesign-bienchezmoi.jpg);}
-.header-webdesign-youdeo-landing {background-image : url(../img/header/webdesign-youdeo-landing.jpg);}
-.header-webdesign-youdeo-rs {background-image : url(../img/header/webdesign-youdeo-rs.jpg);}
+.header-ux-bordas {background-image : url(../img/header/bordas.jpg);}
+.header-ux-dentalmonitoring {background-image : url(../img/header/dentalmonitoring.jpg);}
+.header-ux-genie {background-image : url(../img/header/genie.jpg);}
+.header-ux-rdvmedicaux {background-image : url(../img/header/rdvmedicaux.jpg);}
+.header-ux-wengo {background-image : url(../img/header/wengo.jpg);}
 
 .logo-container{ 
 	min-width: 320px; 
@@ -118,7 +115,7 @@ img.logo{
 
 #bio .link-project{
 	text-decoration: none;
-	color: #404040;
+	color: #323F4B;
 }
 
 #bio ul {
@@ -133,7 +130,7 @@ img.logo{
 /* ///////////////////////////////////////////////// FOLIO */
 
 #project, #projects {
-    background-color: #f7f7f7;
+    background-color: #F5F7FA;
 }
 
 #projects nav ul {
@@ -161,13 +158,13 @@ img.logo{
 }
 
 #projects nav ul li:hover:after {
-	color: #404040;
+	color: #323F4B;
 }
 
 #projects nav ul li:after {
     margin-left: 20px;
     content: '/';
-	color: #404040;
+	color: #323F4B;
 }
 
 #projects nav ul li:last-child:after {
@@ -176,7 +173,7 @@ img.logo{
  
 #projects nav ul li a{
     font-size: 18px;
-	color: #404040;
+	color: #323F4B;
 	text-transform : uppercase;
 }
 
@@ -286,28 +283,32 @@ img.logo{
 	height:600px;
 }
 
+
 /* IDENTITY */
+#gallery .identity-bienchezmoi, #project .identity-bienchezmoi {
+background-image : url(../img/thumbnail/identity-bienchezmoi.jpg);
+}
+#gallery .identity-epicse, #project .identity-epicse {
+background-image : url(../img/thumbnail/identity-epicse.jpg);
+}
 #gallery .identity-hillo, #project .identity-hillo {
 background-image : url(../img/thumbnail/identity-hillo.jpg);
 }
 #gallery .identity-mybestpro, #project .identity-mybestpro {
 background-image : url(../img/thumbnail/identity-mybestpro.jpg);
 }
-#gallery .identity-wephone, #project .identity-wephone {
-background-image : url(../img/thumbnail/identity-wephone.jpg);
-}
-#gallery .identity-youdeo, #project .identity-youdeo {
-background-image : url(../img/thumbnail/identity-youdeo.jpg);
+#gallery .identity-smilemate, #project .identity-smilemate {
+background-image : url(../img/thumbnail/identity-smilemate.jpg);
 }
 /* UX DESIGN */
 #gallery .ux-bordas, #project .ux-bordas {
 background-image : url(../img/thumbnail/ux-bordas.jpg);
 }
+#gallery .ux-dentalmonitoring, #project .ux-dentalmonitoring {
+background-image : url(../img/thumbnail/ux-dentalmonitoring.jpg);
+}
 #gallery .ux-genie, #project .ux-genie {
 background-image : url(../img/thumbnail/ux-genie.jpg);
-}
-#gallery .ux-geniepro, #project .ux-geniepro {
-background-image : url(../img/thumbnail/ux-geniepro.jpg);
 }
 #gallery .ux-rdvmedicaux, #project .ux-rdvmedicaux {
 background-image : url(../img/thumbnail/ux-rdvmedicaux.jpg);
@@ -319,14 +320,11 @@ background-image : url(../img/thumbnail/ux-wengo.jpg);
 #gallery .webdesign-bienchezmoi, #project .webdesign-bienchezmoi {
 background-image : url(../img/thumbnail/webdesign-bienchezmoi.jpg);
 }
-#gallery .webdesign-youdeo-landing, #project .webdesign-youdeo-landing {
-background-image : url(../img/thumbnail/webdesign-youdeo-landing.jpg);
-}
-#gallery .webdesign-youdeo-rs, #project .webdesign-youdeo-rs {
-background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
+#gallery .webdesign-mybestpro, #project .webdesign-mybestpro {
+background-image : url(../img/thumbnail/webdesign-mybestpro.jpg);
 }
 
-#gallery figure.effect-layla .thumbnail.webdesign-bienchezmoi, #gallery figure.effect-layla .thumbnail.webdesign-youdeo-landing{
+#gallery figure.effect-layla .thumbnail.ux-rdvmedicaux, #gallery figure.effect-layla .thumbnail.ux-bordas{
     background-position: top center;
 }
 
@@ -407,7 +405,7 @@ background-image : url(../img/thumbnail/webdesign-youdeo-rs.jpg);
 }
 
 #gallery figure.effect-layla:hover div, #project figure.effect-layla:hover div {
-	opacity: 0.25;
+	opacity: 0.12;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
@@ -651,7 +649,7 @@ outline:none;
 /* ///////////////////////////////////////////////// CONTACT */
 
 #contact {
-	background-color: #808080;
+	background-color: #7B8794;
 	overflow-x: hidden;
 }
 
