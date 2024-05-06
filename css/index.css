@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif; 
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
 	text-align: justify;
     color: #323F4B;
 }
@@ -17,7 +17,7 @@ body {
 h2{	
 	font-weight : 600;
 	text-transform: uppercase;
-	font-size: 26px;
+	font-size: 30px;
 }
 
 a:focus {
@@ -41,18 +41,20 @@ header {
 }
 
 .header-home{background-image : url(../img/header/home.jpg);}
-/* IDENTITY & WEBDESIGN*/
-.header-identity-bienchezmoi, .header-webdesign-bienchezmoi {background-image : url(../img/header/bienchezmoi.jpg);}
-.header-identity-epicse {background-image : url(../img/header/epicse.jpg);}
-.header-identity-hillo {background-image : url(../img/header/hillo.jpg);}
-.header-identity-mybestpro, .header-webdesign-mybestpro {background-image : url(../img/header/mybestpro.jpg);}
-.header-identity-smilemate {background-image : url(../img/header/smilemate.jpg);}
+/* BRANDING */
+.header-branding-bienchezmoi {background-image : url(../img/header/branding_bienchezmoi.jpg);}
+.header-branding-epicse {background-image : url(../img/header/branding_epicse.jpg);}
+.header-branding-hillo {background-image : url(../img/header/branding_hillo.jpg);}
+.header-branding-mybestpro {background-image : url(../img/header/branding_mybestpro.jpg);}
+.header-branding-smilemate {background-image : url(../img/header/branding_smilemate.jpg);}
 /* UX DESIGN */
-.header-ux-bordas {background-image : url(../img/header/bordas.jpg);}
-.header-ux-dentalmonitoring {background-image : url(../img/header/dentalmonitoring.jpg);}
-.header-ux-genie {background-image : url(../img/header/genie.jpg);}
-.header-ux-rdvmedicaux {background-image : url(../img/header/rdvmedicaux.jpg);}
-.header-ux-wengo {background-image : url(../img/header/wengo.jpg);}
+.header-ux-bordas {background-image : url(../img/header/ux_bordas.jpg);}
+.header-ux-dentalmonitoring {background-image : url(../img/header/ux_dentalmonitoring.jpg);}
+.header-ux-dentalmonitoring-app {background-image : url(../img/header/ux_dentalmonitoring-app.jpg);}
+.header-ux-dentalmonitoring-insights {background-image : url(../img/header/ux_dentalmonitoring-insights.jpg);}
+.header-ux-genie {background-image : url(../img/header/ux_genie.jpg);}
+.header-ux-smilemate {background-image : url(../img/header/ux_smilemate.jpg);}
+.header-ux-wengo {background-image : url(../img/header/ux_wengo.jpg);}
 
 .logo-container{ 
 	min-width: 320px; 
@@ -100,10 +102,11 @@ img.logo{
 	margin: .67em 0;
  }
  
- .header-content h2{
+.header-content h2{
 	color:#08c7a1;
 	font-weight: 400;
 	margin: .67em 0;
+	font-size: 24px;
  }
  
 
@@ -284,47 +287,46 @@ img.logo{
 }
 
 
-/* IDENTITY */
-#gallery .identity-bienchezmoi, #project .identity-bienchezmoi {
-background-image : url(../img/thumbnail/identity-bienchezmoi.jpg);
+/* BRANDING */
+#gallery .branding-bienchezmoi, #project .branding-bienchezmoi {
+background-image : url(../img/thumbnail/branding_bienchezmoi.jpg);
 }
-#gallery .identity-epicse, #project .identity-epicse {
-background-image : url(../img/thumbnail/identity-epicse.jpg);
+#gallery .branding-epicse, #project .branding-epicse {
+background-image : url(../img/thumbnail/branding_epicse.jpg);
 }
-#gallery .identity-hillo, #project .identity-hillo {
-background-image : url(../img/thumbnail/identity-hillo.jpg);
+#gallery .branding-hillo, #project .branding-hillo {
+background-image : url(../img/thumbnail/branding_hillo.jpg);
 }
-#gallery .identity-mybestpro, #project .identity-mybestpro {
-background-image : url(../img/thumbnail/identity-mybestpro.jpg);
+#gallery .branding-mybestpro, #project .branding-mybestpro {
+background-image : url(../img/thumbnail/branding_mybestpro.jpg);
 }
-#gallery .identity-smilemate, #project .identity-smilemate {
-background-image : url(../img/thumbnail/identity-smilemate.jpg);
+#gallery .branding-smilemate, #project .branding-smilemate {
+background-image : url(../img/thumbnail/branding_smilemate.jpg);
 }
 /* UX DESIGN */
 #gallery .ux-bordas, #project .ux-bordas {
-background-image : url(../img/thumbnail/ux-bordas.jpg);
+background-image : url(../img/thumbnail/ux_bordas.jpg);
 }
 #gallery .ux-dentalmonitoring, #project .ux-dentalmonitoring {
-background-image : url(../img/thumbnail/ux-dentalmonitoring.jpg);
+background-image : url(../img/thumbnail/ux_dentalmonitoring.jpg);
+}
+#gallery .ux-dentalmonitoring-app, #project .ux-dentalmonitoring-app {
+background-image : url(../img/thumbnail/ux_dentalmonitoring-app.jpg);
+}
+#gallery .ux-dentalmonitoring-insights, #project .ux-dentalmonitoring-insights {
+background-image : url(../img/thumbnail/ux_dentalmonitoring-insights.jpg);
 }
 #gallery .ux-genie, #project .ux-genie {
-background-image : url(../img/thumbnail/ux-genie.jpg);
+background-image : url(../img/thumbnail/ux_genie.jpg);
 }
-#gallery .ux-rdvmedicaux, #project .ux-rdvmedicaux {
-background-image : url(../img/thumbnail/ux-rdvmedicaux.jpg);
+#gallery .ux-smilemate, #project .ux-smilemate {
+background-image : url(../img/thumbnail/ux_smilemate.jpg);
 }
 #gallery .ux-wengo, #project .ux-wengo {
-background-image : url(../img/thumbnail/ux-wengo.jpg);
-}
-/* WEBDESIGN */
-#gallery .webdesign-bienchezmoi, #project .webdesign-bienchezmoi {
-background-image : url(../img/thumbnail/webdesign-bienchezmoi.jpg);
-}
-#gallery .webdesign-mybestpro, #project .webdesign-mybestpro {
-background-image : url(../img/thumbnail/webdesign-mybestpro.jpg);
+background-image : url(../img/thumbnail/ux_wengo.jpg);
 }
 
-#gallery figure.effect-layla .thumbnail.ux-rdvmedicaux, #gallery figure.effect-layla .thumbnail.ux-bordas{
+#gallery figure.effect-layla .thumbnail.ux-smilemate, #gallery figure.effect-layla .thumbnail.ux-bordas{
     background-position: top center;
 }
 
@@ -526,7 +528,7 @@ outline:none;
 }
 
 #skills p {
-	font-size:18px;
+	font-size: 20px;
 }
 
 
@@ -556,7 +558,7 @@ outline:none;
 }
 
 #timeline .skills-content h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     color: #08a7c7;
     margin: 5px 0;
@@ -565,7 +567,7 @@ outline:none;
 #timeline .skills-content h4 {
     font-size: 18px;
     color: #08c7a1;
-    margin: 5px 0 10px 0;
+    margin: 7px 0 10px 0;
 }
 
 #timeline .pr-30{
