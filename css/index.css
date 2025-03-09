@@ -166,7 +166,7 @@ img.logo{
 
 #projects nav ul li:after {
     margin-left: 20px;
-    content: '/';
+    content: '•';
 	color: #323F4B;
 }
 
@@ -534,8 +534,14 @@ outline:none;
 
 /* ///////////////////////////////////////////////// CV */
 
+
+
 #timeline {
     padding-bottom: 50px;
+}
+
+#timeline .list-unstyled li{
+	margin-bottom: 20px;
 }
 
 #timeline .row > div:first-child:not(.text-center) {
@@ -607,12 +613,20 @@ outline:none;
     margin: 5px 0 0 0;
 }
 
-#timeline .skills-legend-85 {
-    margin: 85px auto;
+#timeline .skills-legend-315 {
+    margin: 315px auto;
 }
 
-#timeline .skills-legend-40 {
-    margin: 40px auto;
+#timeline .skills-legend-305 {
+    margin: 305px auto;
+}
+
+#timeline .skills-legend-65 {
+    margin: 65px auto;
+}
+
+#timeline .skills-legend-80 {
+    margin: 80px auto;
 }
 
 #timeline .skills-legend-25 {
